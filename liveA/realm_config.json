@@ -1,7 +1,7 @@
 {
     "config_version": 20210101,
     "app_id": "livea_app-jmgtv",
-    "name": "Stage_App",
+    "name": "LiveA_App",
     "location": "US-VA",
     "deployment_model": "LOCAL",
     "environment": "production"
