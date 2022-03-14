@@ -1,7 +1,8 @@
 {
-    "app_id": "",
     "config_version": 20210101,
-    "name": "MyApp1",
+    "app_id": "stage_app-ecbqh",
+    "name": "Stage_App",
     "location": "US-VA",
-    "deployment_model": "GLOBAL"
+    "deployment_model": "LOCAL",
+    "environment": "development"
 }
