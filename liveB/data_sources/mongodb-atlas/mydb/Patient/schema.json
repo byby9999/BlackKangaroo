@@ -1,0 +1,21 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "Name": {
+            "bsonType": "string"
+        },
+        "PatientIdentificationNumber": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_partition"
+    ],
+    "title": "Patient"
+}

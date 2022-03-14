@@ -1,0 +1,183 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "BodySide": {
+            "bsonType": "object",
+            "properties": {
+                "Code": {
+                    "bsonType": "string"
+                },
+                "Description": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "Surgery_v2_BodySide"
+        },
+        "Lines": {
+            "bsonType": "long"
+        },
+        "Patient": {
+            "bsonType": "object",
+            "properties": {
+                "PatientIdentificationNumber": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "Surgery_v2_Patient"
+        },
+        "Procedure": {
+            "bsonType": "object",
+            "properties": {
+                "Code": {
+                    "bsonType": "string"
+                },
+                "Name": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "Surgery_v2_Procedure"
+        },
+        "Reference": {
+            "bsonType": "string"
+        },
+        "Surgeon": {
+            "bsonType": "object",
+            "properties": {
+                "Code": {
+                    "bsonType": "string"
+                },
+                "FirstName": {
+                    "bsonType": "string"
+                },
+                "LastName": {
+                    "bsonType": "string"
+                },
+                "Title": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "Surgery_v2_Surgeon"
+        },
+        "SurgeryItems": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Code": {
+                        "bsonType": "string"
+                    },
+                    "Description": {
+                        "bsonType": "string"
+                    },
+                    "ExpiryDate": {
+                        "bsonType": "string"
+                    },
+                    "LotNumber": {
+                        "bsonType": "string"
+                    },
+                    "Quantity": {
+                        "bsonType": "long"
+                    },
+                    "SerialNumber": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "Surgery_v2_SurgeryItems"
+            }
+        },
+        "SurgeryProcedures": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Code": {
+                        "bsonType": "string"
+                    },
+                    "Description": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "Surgery_v2_SurgeryProcedures"
+            }
+        },
+        "SurgeryStaffs": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "FirstName": {
+                        "bsonType": "string"
+                    },
+                    "LastName": {
+                        "bsonType": "string"
+                    },
+                    "SurgeryStaffTimings": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "EndTime": {
+                                    "bsonType": "date"
+                                },
+                                "StartTime": {
+                                    "bsonType": "date"
+                                }
+                            },
+                            "required": [],
+                            "title": "Surgery_v2_SurgeryStaffs_SurgeryStaffTimings"
+                        }
+                    },
+                    "TheatreStaffRate": {
+                        "bsonType": "double"
+                    },
+                    "TheatreStaffrate": {
+                        "bsonType": "double"
+                    }
+                },
+                "required": [],
+                "title": "Surgery_v2_SurgeryStaffs"
+            }
+        },
+        "Theatre": {
+            "bsonType": "object",
+            "properties": {
+                "Code": {
+                    "bsonType": "string"
+                },
+                "Description": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "Surgery_v2_Theatre"
+        },
+        "TheatreTotalCost": {
+            "bsonType": "double"
+        },
+        "TheatreTotalcost": {
+            "bsonType": "double"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "message": {
+            "bsonType": "string"
+        },
+        "v": {
+            "bsonType": "long"
+        }
+    },
+    "required": [
+        "_partition"
+    ],
+    "title": "Surgery_v2"
+}
