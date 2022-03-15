@@ -1,5 +1,8 @@
 {
     "properties": {
+        "Partition": {
+            "bsonType": "string"
+        },
         "PatientId": {
             "bsonType": "string"
         },
@@ -16,8 +19,11 @@
             "bsonType": "string"
         },
         "_id": {
-            "bsonType": "int"
+            "bsonType": "objectId"
         }
     },
+    "required": [
+        "Partition"
+    ],
     "title": "Surgery"
 }

@@ -1,25 +1,5 @@
 [
     {
-        "name": "getMyTeamMembers",
-        "private": false
-    },
-    {
-        "name": "canWritePartition",
-        "private": false
-    },
-    {
-        "name": "createNewUserDocument",
-        "private": false
-    },
-    {
-        "name": "addTeamMember",
-        "private": false
-    },
-    {
-        "name": "getEnvironmentValue",
-        "private": false
-    },
-    {
         "name": "getNormalValue",
         "private": false
     },
@@ -32,7 +12,27 @@
         "private": false
     },
     {
+        "name": "canWritePartition",
+        "private": false
+    },
+    {
+        "name": "createNewUserDocument",
+        "private": false
+    },
+    {
+        "name": "getEnvironmentValue",
+        "private": false
+    },
+    {
         "name": "canReadPartition",
+        "private": false
+    },
+    {
+        "name": "getMyTeamMembers",
+        "private": false
+    },
+    {
+        "name": "addTeamMember",
         "private": false
     }
 ]
