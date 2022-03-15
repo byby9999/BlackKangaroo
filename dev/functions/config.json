@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "name": "canWritePartition",
+        "private": false
+    },
+    {
+        "name": "createNewUserDocument",
+        "private": false
+    },
+    {
+        "name": "removeTeamMember",
+        "private": false
+    },
+    {
+        "name": "addTeamMember",
+        "private": false
+    },
+    {
+        "name": "canReadPartition",
+        "private": false
+    },
+    {
+        "name": "getEnvironmentValue",
+        "private": false
+    },
+    {
+        "name": "getMyTeamMembers",
+        "private": false
+    },
+    {
+        "name": "getNormalValue",
+        "private": false
+    },
+    {
+        "name": "resetFunc",
+        "private": false
+    }
+]
