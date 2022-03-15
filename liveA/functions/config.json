@@ -1,10 +1,10 @@
 [
     {
-        "name": "getNormalValue",
+        "name": "createNewUserDocument",
         "private": false
     },
     {
-        "name": "createNewUserDocument",
+        "name": "canReadPartition",
         "private": false
     },
     {
@@ -12,11 +12,7 @@
         "private": false
     },
     {
-        "name": "resetFunc",
-        "private": false
-    },
-    {
-        "name": "canWritePartition",
+        "name": "getNormalValue",
         "private": false
     },
     {
@@ -24,7 +20,7 @@
         "private": false
     },
     {
-        "name": "removeTeamMember",
+        "name": "resetFunc",
         "private": false
     },
     {
@@ -32,7 +28,11 @@
         "private": false
     },
     {
-        "name": "canReadPartition",
+        "name": "removeTeamMember",
+        "private": false
+    },
+    {
+        "name": "canWritePartition",
         "private": false
     }
 ]
