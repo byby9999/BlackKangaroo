@@ -1,6 +1,6 @@
 {
-    "config_version": 20210101,
     "app_id": "livea_app-jmgtv",
+    "config_version": 20210101,
     "name": "LiveA_App",
     "location": "US-VA",
     "deployment_model": "LOCAL",
