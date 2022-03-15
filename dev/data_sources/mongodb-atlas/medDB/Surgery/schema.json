@@ -1,0 +1,23 @@
+{
+  "title": "Surgery",
+  "properties": {
+    "PatientId": {
+      "bsonType": "string"
+    },
+    "ProcedureName": {
+      "bsonType": "string"
+    },
+    "Staff": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "string"
+      }
+    },
+    "Surgeon": {
+      "bsonType": "string"
+    },
+    "_id": {
+      "bsonType": "int"
+    }
+  }
+}
