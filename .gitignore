@@ -1,0 +1,11 @@
+client-app/App1/obj/Debug/
+client-app/App1.Android/obj/
+client-app/App1.Android/bin/
+*.csproj
+client-app/.vs/App1/v17/.suo
+client-app/App1/FodyWeavers.xml
+client-app/App1/FodyWeavers.xsd
+client-app/App1.Android/FodyWeavers.xml
+client-app/App1.Android/FodyWeavers.xsd
+client-app/App1.Android/App1.Android.csproj.user
+client-app/App1.sln

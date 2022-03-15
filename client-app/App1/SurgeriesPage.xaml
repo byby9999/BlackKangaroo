@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.SurgeriesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label x:Name="MyTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="Title" TextColor="HotPink" />
+            <ListView x:Name="MyListView"
+            ItemsSource="{Binding Items}" 
+            CachingStrategy="RecycleElement">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ProcedureName, Mode=TwoWay}" WidthRequest="300" Style="{DynamicResource ListItemTextStyle}" />
+                                <Label Text="{Binding Surgeon}"  WidthRequest="100" TextColor="Blue"></Label>
+                                <Label Text="{Binding StaffList}" TextColor="#3DD49B"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!--<Button Clicked="OnDisappearing()" Text="Log out"></Button>-->
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

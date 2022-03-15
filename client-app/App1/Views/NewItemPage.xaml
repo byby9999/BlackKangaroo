@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.NewItemPage"
+             Shell.PresentationMode="ModalAnimated"
+             Title="Home"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label 
+                Text="Click on Surgeries to see data." 
+                FontSize="Large"
+                VerticalOptions="Center" TextColor="Black"/>
+            <Label 
+                Text="To start over and choose a different environment, click on Log out, then again on surgeries." 
+                FontSize="Large"
+                VerticalOptions="Center" TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
