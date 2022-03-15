@@ -1,4 +1,5 @@
 {
+    "id": "622f626064c8cb017737a352",
     "name": "onNewUser",
     "type": "AUTHENTICATION",
     "config": {
