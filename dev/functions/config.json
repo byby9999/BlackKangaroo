@@ -1,18 +1,14 @@
 [
     {
-        "name": "getNormalValue",
-        "private": false
-    },
-    {
-        "name": "removeTeamMember",
-        "private": false
-    },
-    {
         "name": "resetFunc",
         "private": false
     },
     {
-        "name": "canWritePartition",
+        "name": "addTeamMember",
+        "private": false
+    },
+    {
+        "name": "canReadPartition",
         "private": false
     },
     {
@@ -24,15 +20,15 @@
         "private": false
     },
     {
-        "name": "canReadPartition",
-        "private": false
-    },
-    {
         "name": "getMyTeamMembers",
         "private": false
     },
     {
-        "name": "addTeamMember",
+        "name": "getNormalValue",
+        "private": false
+    },
+    {
+        "name": "removeTeamMember",
         "private": false
     }
 ]
